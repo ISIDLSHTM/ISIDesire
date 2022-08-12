@@ -21,7 +21,7 @@ class BIB:
             assert self.mid_val >= self.min
         self.best_val = self.max # only used for building combined utility
         self.worst_val = self.min  # only used for building combined utility
-        # print(self.name, self.min, self.max, self.mid_val, self.m)
+
 
 
     def query_for_parameters(self):
@@ -72,7 +72,6 @@ class SIB:
             assert self.mid_val >= self.min
         self.best_val = self.min  # only used for building combined utility
         self.worst_val = self.max  # only used for building combined utility
-        # print(self.name, self.min, self.max, self.mid_val, self.t)
 
     def query_for_parameters(self):
         print('What is the name of this value of interest?\n')
@@ -132,7 +131,6 @@ class TIB:
         self.best_val = self.target  # only used for building combined utility
         self.worst_val = self.min  # only used for building combined utility
 
-        # print(self.name, self.min, self.target,self.max, self.mid_val_low, self.mid_val_high, self.m, self.t)
 
     def query_for_parameters(self):
         print('What is the name of this value of interest?\n')
