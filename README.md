@@ -13,23 +13,42 @@ The employer values those that manage juniors, prefering there seniors to manage
 To generate this from running main.py I typed:
 
 N
+
 b
+
 Yearly_Sales
+
 10
+
 100
+
 20
+
 Yearly_sick_days
+
 3
+
 28
+
 5
+
 Juniors
+
 0
+
 5
+
 15
+
 2
+
 7
+
 end
+
 15
+
 12
+
 end
 
