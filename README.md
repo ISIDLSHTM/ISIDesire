@@ -57,3 +57,22 @@ end
 
 end
 
+
+
+
+This desirability function can be built using the above steps or using the quick setyp, and will then ask for values to get desirability.
+
+An employee made 12 sales (far less than the 20 that is considered expected), took 4 sick days (near optimal) and manages 5 juniors (the optimal amount). Typing 
+
+12, 4, 5
+
+gives an overall employee desirability of 0.52, which is greater than 0.5 and hence the employee is overall slightly exceeding expectations. 
+
+An employee made 80 sales (far more than the 20 that is considered expected), took 6 sick days (slightly more than preferable) and manages 0 juniors (which is unacceptable). Typing 
+
+80, 6, 0
+
+gives an overall employee desirability of 0.00, hence the employee is presently not acceptable under the emploer's standards. If this employee then took on 5 juniors, reducing their sales to 30, the new desirability would be 0.67, which is very desirable. 
+
+
+
